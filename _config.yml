@@ -5,8 +5,15 @@ description: > # this means to ignore newlines until "baseurl:"
   My personal web development and technology blog
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://tbaugh.github.io" # the base hostname & protocol for your site
-twitter_username: travis_baugh
+twitter_username: 
 github_username:  tbaugh
 
 # Build settings
 markdown: kramdown
+
+
+# Set up FTP with glynn
+ftp_host: 'rockdale.dreamhost.com'
+ftp_dir: '/blog/'
+ftp_passive: false
+ftp_username: 'tbaugh'
